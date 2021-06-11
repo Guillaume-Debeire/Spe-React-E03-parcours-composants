@@ -11,7 +11,7 @@
     "eslint-config-airbnb": "*",
     "eslint-import-resolver-webpack": "*",
     "eslint-plugin-import": "*",
-    "eslint-plugin-jsx-ally": "*",
+    "eslint-plugin-jsx-a11y": "*",
     "eslint-plugin-react": "*",
     "style-loader": "*",
     "webpack": "^4.4.0",
