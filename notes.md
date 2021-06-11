@@ -29,6 +29,7 @@ function listItem() {
 const firstItem = listItem();
 const secondItem = listItem();
 ```
+
 Bien sur on pourra accepter un paramètre pour configurer l'élement retourné par le composant
 
 ```js
