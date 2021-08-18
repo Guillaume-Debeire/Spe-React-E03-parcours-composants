@@ -30,7 +30,11 @@ const firstItem = ListItem();
 const secondItem = ListItem();
 ```
 
+<<<<<<< HEAD
 Bien sur on pourra accépter un paramètre pour configurer l'élement retourné par le composant
+=======
+Bien sur on pourra accepter un paramètre pour configurer l'élement retourné par le composant
+>>>>>>> de16f1c268461421405a693971df4673f1a7c8ba
 
 ```js
 function ListItem(props) {
