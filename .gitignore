@@ -6,3 +6,5 @@ node_modules/
 Thumbs.db
 
 yarn-error.log
+
+import-external-repo.sh
