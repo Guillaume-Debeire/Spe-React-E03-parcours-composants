@@ -155,7 +155,7 @@ const firstItem = <ListItem text="Hello world" />;
 const secondItem = <ListItem text="Coucou toto" />;
 ```
 
-On peut également configurer notre composant avec des enfants, pour cela on crée notre élement via une balise englobant et on met les enfants à l'intérieur, ils seront reçu en propriété de l'objet reçu en paramètre de la fonction composant sous la clé children
+On peut également configurer notre composant avec des enfants, pour cela on crée notre élement via une balise englobant et on met les enfants à l'intérieur, ils seront reçus en propriété de l'objet reçu en paramètre de la fonction composant sous la clé children
 
 ```jsx
 import React from 'react';

@@ -55,12 +55,6 @@ function HelloWorld({ lang, method, children }) {
   );
 }
 
-// const rootReactElement = (
-//   <HelloWorld lang="React" method="ReactDOM" children={<p>Je suis un enfant</p>} />
-// );
-
-// React.createElement('HelloWorld', { lang: 'React', method: 'RactDom' }, React.createElement('p', null, 'Je suis un enfant'));
-
 const rootReactElement = (
   <HelloWorld lang="React" method="ReactDOM">
     <p>Et c'est super cool !</p>

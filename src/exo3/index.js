@@ -39,7 +39,6 @@ import React from 'react';
 import { render } from 'react-dom';
 import test from './test';
 
-
 /*
  * Code
  */
@@ -84,7 +83,6 @@ function HelloWorld({ lang, method }) {
 //       <h2>Et affiché avec {method}</h2>
 //     </div>
 //   );
-
 
 const rootReactElement = <HelloWorld lang="React" method="ReactDOM" />;
 const domParent = document.getElementById('root');
