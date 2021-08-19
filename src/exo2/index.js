@@ -17,7 +17,7 @@
  *
  * 4) Exécuter la fonction render() pour afficher
  *    <HelloWorld /> dans la div #root
- * 
+ *
  * 5) Rajouter un fichier .css pour venir centrer
  *    le texte de #hello-world
  */
@@ -25,7 +25,6 @@
 /*
  * Npm import
  */
-
 
 /*
  * Local import
@@ -56,6 +55,15 @@ const rootReactElement = <HelloWorld />;
 const domParent = document.getElementById('root');
 
 render(rootReactElement, domParent);
+
+function ListItem(props) {
+  return <li className="list-item"> La phrase est : {props.text}</li>;
+}
+
+const firstItem = <ListItem text="Hello World" />;
+const secondItem = <ListItem text="Ola Mundo" />;
+
+console.log(firstItem, secondItem);
 
 /*
  * Tests

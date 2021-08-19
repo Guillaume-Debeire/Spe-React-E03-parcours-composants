@@ -142,7 +142,7 @@ const secondItem = ListItem({
 });
 ```
 
-C'est cool mais c'est toujours très verbeux, on peut plutot préférer JSX, on va écrire la meme chose mais de manière déguisé, on aura l'impression d'écrire du html mais on va bel et bien écrire React.crateElement
+C'est cool mais c'est toujours très verbeux, on peut plutot préférer JSX, on va écrire la meme chose mais de manière déguisée, on aura l'impression d'écrire du html mais on va bel et bien écrire React.crateElement
 
 ```jsx
 import React from 'react';
