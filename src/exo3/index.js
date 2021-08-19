@@ -67,12 +67,24 @@ import test from './test';
 
 // En fonction fléchée
 
-const HelloWorld = ({ lang, method }) => (
-  <div id="hello-world" className="demo">
-    <h1>Ce HTML a été généré par {lang}</h1>
-    <h2>Et affiché avec {method}</h2>
-  </div>
-);
+function HelloWorld({ lang, method }) {
+  return (
+    <div id="hello-world" className="demo">
+      <h1>Ce HTML a été généré par {lang}</h1>
+      <h2>Et affiché avec {method}</h2>
+    </div>
+  );
+}
+
+// En fonction fléchée
+
+// const HelloWorld = ({ lang, method }) => (
+//     <div id="hello-world" className="demo">
+//       <h1>Ce HTML a été généré par {lang}</h1>
+//       <h2>Et affiché avec {method}</h2>
+//     </div>
+//   );
+
 
 const rootReactElement = <HelloWorld lang="React" method="ReactDOM" />;
 const domParent = document.getElementById('root');

@@ -56,14 +56,7 @@ const domParent = document.getElementById('root');
 
 render(rootReactElement, domParent);
 
-function ListItem(props) {
-  return <li className="list-item"> La phrase est : {props.text}</li>;
-}
-
-const firstItem = <ListItem text="Hello World" />;
-const secondItem = <ListItem text="Ola Mundo" />;
-
-console.log(firstItem, secondItem);
+console.log(rootReactElement);
 
 /*
  * Tests
